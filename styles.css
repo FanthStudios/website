@@ -10,30 +10,6 @@ body {
     font-weight: 600;
 }
 
-@keyframes transitionInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
-
-    to {
-        opacity: 1;
-        transform: rotateX(0);
-    }
-}
-
-@keyframes transitionInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: rotateX(0);
-    }
-}
-
 .sd {
     text-decoration: none;
     font-weight: 600;
@@ -71,4 +47,29 @@ footer {
     color: white;
     text-align: center;
     animation: transitionInUp 1s;
+}
+
+/* Animacje */
+@keyframes transitionInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@keyframes transitionInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
