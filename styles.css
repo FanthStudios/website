@@ -10,6 +10,30 @@ body {
     font-weight: 600;
 }
 
+@keyframes transitionInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@keyframes transitionInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
 .sd {
     text-decoration: none;
     font-weight: 600;
@@ -26,6 +50,7 @@ body {
 .main-container {
     padding-top: 100px;
     text-align: center;
+    animation: transitionInDown 1s;
 }
 
 #copy {
@@ -45,4 +70,5 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
+    animation: transitionInUp 1s;
 }
