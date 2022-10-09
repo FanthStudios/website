@@ -1,9 +1,37 @@
-body {
-    background-color: darkslategray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.siusiak-title {
+body {
+    background-color: #050415;
+    font-weight: 600;
+}
+
+.sd {
+    text-decoration: none;
+    font-weight: 600;
+    color: #c9c9c9;
+    transition: 0.7s;
+}
+
+.sd:hover {
+    color: #ff4d49;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+.main-container {
     text-align: center;
-    font-size: 70px;
-    color: #ff80ff;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
