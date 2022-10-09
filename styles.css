@@ -28,6 +28,16 @@ body {
     text-align: center;
 }
 
+#copy {
+    color: lightgreen;
+    opacity: 0;
+}
+
+.author {
+    color: #ff4d49;
+    cursor: pointer;
+}
+
 footer {
     position: fixed;
     left: 0;

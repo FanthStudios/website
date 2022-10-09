@@ -38,9 +38,12 @@
         <h2 style="color: #fff;">Kontakt Discord</h2>
 
         <div>
-            <span style="color: #ff4d49;">EpicPlayerA10#3800</span>
+            <span class="author" onclick="copyEpicPlayerA10()">EpicPlayerA10#3800</span>
             <b style="color: #535353;">&</b>
-            <span style="color: #ff4d49;">Łulfi#9869</span>
+            <span class="author" onclick="copyLulfi()">Łulfi#9869</span>
+
+            <br><br>
+            <p id="copy">Skopiowano</p>
         </div>
     </div>
 
@@ -50,6 +53,18 @@
         </p>
         <p style="font-size: 10px;">Siusiak Developers &copy; 2022</p>
     </footer>
+
+    <script>
+        const copyEpicPlayerA10 = () => {
+            navigator.clipboard.writeText(`EpicPlayerA10#3800`);
+            document.getElementById("copy").style.opacity = 1;
+        };
+
+        const copyLulfi = () => {
+            navigator.clipboard.writeText(`Łulfi#9869`);
+            document.getElementById("copy").style.opacity = 1;
+        };
+    </script>
 
 </body>
 
