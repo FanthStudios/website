@@ -41,6 +41,11 @@ body {
     cursor: pointer;
 }
 
+.logo {
+    width: 100%;
+    max-width: 900px;
+}
+
 footer {
     position: fixed;
     left: 0;
