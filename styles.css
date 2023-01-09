@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #050415;
+    background-color: #0d0d0d;
     font-weight: 600;
     display: grid;
     place-items: center;
@@ -15,12 +15,12 @@ body {
 .sd {
     text-decoration: none;
     font-weight: 600;
-    color: #c9c9c9;
+    color: #ff4d49;
     transition: 0.7s;
 }
 
 .sd:hover {
-    color: #ff4d49;
+    color: #df3532;
     transition: 0.7s;
     text-decoration: none;
 }
@@ -32,13 +32,19 @@ body {
 }
 
 #copy {
-    color: lightgreen;
+    color: #ff4d49;
     opacity: 0;
 }
 
 .author {
     color: #ff4d49;
     cursor: pointer;
+    transition: 0.7s;
+}
+
+.author:hover {
+    transition: 0.7s;
+    color: #c22826;
 }
 
 .logo {
