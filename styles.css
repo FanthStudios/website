@@ -1,3 +1,8 @@
+:root {
+    --red-primary: #ff4d49;
+    --gray-primary: #969494;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,15 +17,15 @@ body {
     place-items: center;
 }
 
-.sd {
+.siusiakdevelopers-button {
     text-decoration: none;
     font-weight: 600;
-    color: #ff4d49;
+    color: var(--red-primary);
     transition: 0.7s;
 }
 
-.sd:hover {
-    color: #df3532;
+.siusiakdevelopers-button:hover {
+    filter: brightness(70%);
     transition: 0.7s;
     text-decoration: none;
 }
@@ -32,19 +37,19 @@ body {
 }
 
 #copy {
-    color: #ff4d49;
+    color: var(--red-primary);
     opacity: 0;
 }
 
 .author {
-    color: #ff4d49;
+    color: var(--red-primary);
     cursor: pointer;
     transition: 0.7s;
 }
 
 .author:hover {
     transition: 0.7s;
-    color: #c22826;
+    filter: brightness(70%);
 }
 
 .logo {
@@ -57,7 +62,7 @@ footer {
     left: 0;
     bottom: 50px;
     width: 100%;
-    color: white;
+    color: var(--gray-primary);
     text-align: center;
     animation: transitionInUp 1s;
 }
