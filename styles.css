@@ -17,14 +17,14 @@ body {
     place-items: center;
 }
 
-.siusiakdevelopers-button {
+.fanthstudios-button {
     text-decoration: none;
     font-weight: 600;
     color: var(--red-primary);
     transition: 0.7s;
 }
 
-.siusiakdevelopers-button:hover {
+.fanthstudios-button:hover {
     filter: brightness(70%);
     transition: 0.7s;
     text-decoration: none;
